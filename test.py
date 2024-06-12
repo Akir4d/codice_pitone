@@ -7,3 +7,4 @@ while n < 10:
 
 n = "Sono un pazzo scatenato"
 print(n)
+
