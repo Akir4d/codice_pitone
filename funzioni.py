@@ -7,7 +7,7 @@ stampaqui("Pinco", "Pallino")
 # un modo alternativo per unire piu' stringhe al string + string
 # e' anteporre f ai doppi apici ed inserire le stringhe con {string}
 
-def tichiami(nome, cognome):
+def tichiami(nome = "", cognome = ""):
     return f"ti chiami {nome} {cognome}"
 
 nuova_stringa = tichiami("Pinco", "Pallino")
@@ -17,6 +17,10 @@ print(nuova_stringa)
 # non posizionale ovvero argomento=valore
 
 print(tichiami(cognome="Labarca", nome="Remo"))
+
+print(tichiami(cognome="De Luca"))
+
+print(tichiami("Cateno"))
 
 # alcuni usano ''' o """ per fare commenti
 # di fatto sono dichiarazioni di stringe multiriga
