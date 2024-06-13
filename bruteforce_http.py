@@ -10,6 +10,7 @@ for user in user_list:
     user =  user.rstrip()
     for pwd in pwd_list:
         pwd = pwd.rstrip()
+        
         print(f"{user} - {pwd}")
 
         
