@@ -10,7 +10,7 @@ s.listen(1)
 print(f"Il server e' avviato su {SRV_ADDR}:{SRV_PORT}")
 connection, address = s.accept()
 print(f"Client in ascolto all'indirizzo {address}")
-connection.sendall(b"Ciao!\nfaccio echo:\n")
+connection.sendall(b" Ciao!\n faccio echo:\n")
 while True:
     connection.sendall(b"$ ")
     data = connection.recv(1024)
