@@ -1,0 +1,5 @@
+guest
+admin
+user
+pippo
+giacomo
